@@ -111,7 +111,7 @@ Though making a GPT call is as simple as making a REST call. SDKs and orchestrat
 
 ## Handling disconnections and throttling
 
-In general, it is good practice to add retry logic for fault-handling. Azure OpenAI are rest endpoints and as such have limits as stated above. When the limits are exceeded the question may be how to handle or prevent this. The answer to this question is a comprehensive one that may include load balancing several endpoints, selecting the right model with the right token-per-minute count, implementing a good retry logic on the application, etc. The following article describes on piece of this puzzle and its related to load balancing two OpenAI endpoints with Azure API Management:  https://techcommunity.microsoft.com/t5/fasttrack-for-azure/smart-load-balancing-for-openai-endpoints-and-azure-api/ba-p/3991616.
+In general, it is good practice to add retry logic for fault-handling. Azure OpenAI are rest endpoints and as such have limits as stated above. When the limits are exceeded the question may be how to handle or prevent this. The answer to this question is a comprehensive one that may include load balancing several endpoints, selecting the right model with the right token-per-minute count, implementing a good retry logic on the application, etc. The following article describes one piece of this puzzle and its related to load balancing two OpenAI endpoints with Azure API Management:  https://techcommunity.microsoft.com/t5/fasttrack-for-azure/smart-load-balancing-for-openai-endpoints-and-azure-api/ba-p/3991616.
 
 ## RAG Pattern
 
@@ -121,7 +121,7 @@ The following link provides detailed information about this pattern: https://git
 
 ## Summarizer Pattern
 
-A summarizer pattern can handle large texts that exceed the token limits of the GPT models. It does this by dividing the text into smaller pieces, summarizing each piece, and then summarizing the combined summaries for the final output. This pattern can be used for more than summarization, such as analysis, text translation, and so on.
+A summarizer pattern can handle large texts that exceed the token limits of the GPT models. It does this by dividing the text into smaller pieces, summarizing each piece, and then summarizing the combined summaries for the final output. This pattern can be used for more than summarization, for example, to analyze, translate, and so on.
 
 ## Building Blocks - C# Polyglot Samples 
 
