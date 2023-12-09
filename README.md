@@ -156,7 +156,7 @@ A summarizer pattern can handle large texts that exceed the token limits of the 
 
 ## Promptflow
 
-Microsoft describes [Promflow](https://github.com/microsoft/promptflow) as, "a suite of development tools designed to streamline the end-to-end development cycle of LLM-based AI applications, from ideation, prototyping, testing, evaluation to production deployment and monitoring. It makes prompt engineering much easier and enables you to build LLM apps with production quality." The way Promptflow leverages Jinja2 templates, Python blocks, and how flows are built, are excellent examples of how to compose complex interactions.
+Microsoft describes [Promflow](https://github.com/microsoft/promptflow) as, "a suite of development tools designed to streamline the end-to-end development cycle of LLM-based AI applications, from ideation, prototyping, testing, evaluation to production deployment and monitoring. It makes prompt engineering much easier and enables you to build LLM apps with production quality." The way Promptflow leverages Jinja2 templates to generate prompts, how Python blocks are incorporated into flows, and how flows are built visually or in code, are excellent examples of how to compose complex interactions in building AI-infused applications.
 
 - [Promptflow-Chatbot](https://github.com/microsoft/promptflow/tree/main/examples/flows/chat/basic-chat)
   - Building blocks: Connections, flows, chat model, LLM prompts, Jinja2 templates
