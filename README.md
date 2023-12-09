@@ -47,7 +47,7 @@ A GPT model can maintain a record of the previous interactions with the user. Th
 
 ### What are some LLM use cases?
 
-Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling (Jupyter notebooks) of some of the LLM use cases: 
+Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling (Jupyter notebooks) of some LLM use cases: 
 
 - [Summarization & Risk Analysis](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/analysis.ipynb)
   - Get a contract, summarize it, and identify the risks.
