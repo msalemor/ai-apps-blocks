@@ -71,17 +71,26 @@ So if it is so simple to consume a GPT endpoint, where is the difficulty? It is 
 
 Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are REST endpoint, particularly feeling comfortable with the following concepts is important.
 
--	Making REST requests (POST) (notebook)
+-	Making REST requests (POST)
 -	Configuring HttpClient
 -	Configuring retry logic
 
-## SDKs and Orchestrators (notebook)
+## SDKs and Orchestrators
 
 -	OpenAI SDK
 -	LangChain
 - Semantic Kernel
 
-### Building C# Polyglot Samples 
+## RAG Pattern
+
+Microsoft defines [Retrieval Augmented Generation (RAG)](https://learn.microsoft.com/en-us/azure/machine-learning/concept-retrieval-augmented-generation?view=azureml-api-2) as a pattern that works with pre-trained Large Language Models (LLM) and your data to generate responses. 
+
+The following link provides detailed information about this pattern: https://github.com/msalemor/sk-rag-pattern.
+
+## Summarizer Pattern
+
+
+## Building Blocks - C# Polyglot Samples 
 
 - [REST-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/cars-content-generation.ipynb)
 - [REST-Chat](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/chatbot.ipynb)
@@ -90,18 +99,5 @@ Writing an AI-infused application is no different than planning a regular applic
 - [SK-Chatbot](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-chatbot.ipynb)
 - [SK-Planners](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-planner.ipynb)
 - [SK-Embeddings-WIP]()
-
-## RAG Pattern (notebook)
-
-- Ingestion
-- Text chunking
-- Embeddings (ADA: How can a 1500, 8K tokens)
-- Vector Databases
-- Recalling embeddings
-- Cosine similarity
-- Grounding
-- Tabular data (CSVs, SQL)
-
-## Vector Database (Azure Cognitive Search)
-
-- Different search options
+- [SK-RAG Pattern](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-rag-pattern.ipynb)
+- [SK-Summarizer](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-summarizer-pattern.ipynb)
