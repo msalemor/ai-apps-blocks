@@ -13,7 +13,9 @@ A token is defined as 3/4 of a word in English. In other languages that have acc
 
 ### What are the token limits and why are they important?
 
-Models like GPT 3.5, 4, and ADA have different token count limitations. It is important to understand these limits to be able to optimize the number of requests an account can handle. TPM vs requests.
+Models like GPT 3.5, 4, and ADA have different token count limitations. It is important to understand these limits to be able to optimize the number of requests an account can handle. Three factors are most important in knowing the token limitations including context size, throttling, and cost. Context size is the maxium amount of tokens a model supports. Some models support 4K, 8K, 16K, 32K, and 128K. Throttling occurs when limitations are exceeded. In Azure, there are two limitations, tokens per minute, and requests per minute. If you exceed any of these limitations, Azure with throttle the respose returning an HttpStatus code 429 or Too Many Requests. As far as cost, different models different cost depending on the model.
+
+[Azure OpenAI Service pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
 
 ### What are prompts and completions?
 
