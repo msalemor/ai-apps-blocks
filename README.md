@@ -41,7 +41,7 @@ Again, GPT models are foundational models. As foundational models, they can solv
   - Recommend from an up-to-date list of restaurants
 - [Language Translation](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/translation.ipynb)
   - Translate technical text from a target to a source language
-- [Content generation and Personalization](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/generation.ipynb)
+- [Content generation and personalization](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/generation.ipynb)
   - Generate a sales car description
 - [Intent and entities - A LUIS-like scenario](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/intent.ipynb)
   - Find the user's intent and entities
