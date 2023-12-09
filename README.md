@@ -50,7 +50,9 @@ curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYM
   -d '{"messages":[{"role": "user", "content": "What is the speed of light?"}]}'
 ```
 
-Even just this one simple action can yield amazing results. So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
+Even just this one simple action can yield amazing results. 
+
+So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
 
 - Selecting the right model
 - Ingestion
