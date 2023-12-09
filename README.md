@@ -103,7 +103,7 @@ So if it is so simple to consume a GPT endpoint, where is the difficulty? The an
 - Creating and storing embeddings
 - Selecting a Vector database, 
 - Retrieving and consuming results from a vector database
-- Delivering a right user experience (frontend)
+- Delivering the right user experience (frontend)
 - Etc.
 
 ## Application architecture fundamentals
