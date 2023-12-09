@@ -77,7 +77,7 @@ Writing an AI-infused application is no different than planning a regular applic
 -	LangChain
 - Semantic Kernel
 
-### Building c# interactive block samples
+### Building C# Polyglot Samples 
 
 - [REST]()
 - [Resiency]()
