@@ -87,7 +87,7 @@ Making a call to a GPT endpoint is as simple as sending one sentence via a CURL 
 curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT_NAME/chat/completions?api-version=2023-05-15 \
   -H "Content-Type: application/json" \
   -H "api-key: YOUR_API_KEY" \
-  -d '{"messages":[{"role": "user", "content": "What is the speed of light?"}]}'
+  -d '{"messages":[{"role": "user", "content": "What is the speed of light?"}],max_tokens:200,temperature:0.3}'
 ```
 
 Even just this one simple action can yield amazing results. 
