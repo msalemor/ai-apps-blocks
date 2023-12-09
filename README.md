@@ -33,7 +33,9 @@ A GPT model can maintain a record of the previous interactions with the user. Th
 
 #### What are some use cases?
 
-- [Use cases]()
+Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling of some of these use cases:
+
+- [Use cases](https://github.com/msalemor/llm-use-cases)
 
 ### What are embeddings?
 
