@@ -29,6 +29,16 @@ Once you are satisfied with your prompt, think about how the application will co
 
 ### What is the difference between an LLM vs Chat model?
 
+### Where is the difficulty? ("The everything else")
+
+Making a call to a prompt is as simple as sending one sentence via a CURL command to GPT. Even just this one simple action can yield amazing results. So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
+
+- Ingestion (data source, data format, extracting text)
+- Prompt engineering
+- Processing the completions
+- Fault handling and resiliency
+- The frontend
+
 ## Application architecture fundamentals
 
 Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are REST endpoint, particularly feeling comfortable with the following concepts is important.
