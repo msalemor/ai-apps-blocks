@@ -81,7 +81,7 @@ Reference:
 
 ### Where is the difficulty? ("The everything else")
 
-Making a call to a GPT endpoint is as simple as sending one sentence via a CURL command like this: 
+Making a call to a GPT endpoint is as simple as sending one sentence, `What is the speed of light?`, via a CURL command like this: 
 
 ```bash
 curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT_NAME/chat/completions?api-version=2023-05-15 \
