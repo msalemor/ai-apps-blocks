@@ -81,7 +81,7 @@ Reference:
 
 ### Where is the difficulty? ("The everything else")
 
-Making a call to GPT endpoint is as simple as sending one sentence via a CURL command like this: 
+Making a call to a GPT endpoint is as simple as sending one sentence via a CURL command like this: 
 
 ```bash
 curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT_NAME/chat/completions?api-version=2023-05-15 \
@@ -107,15 +107,16 @@ So if it is so simple to consume a GPT endpoint, where is the difficulty? It is 
 
 ## Application architecture fundamentals
 
-Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are REST endpoint, particularly feeling comfortable with the following concepts is important.
+Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are REST endpoints, particularly feeling comfortable with the following concepts is important:
 
 -	Making REST requests (POST)
 -	Configuring HttpClient
 -	Configuring retry logic
+-	Using SDKs and orchestrators
 
 ## SDKs and Orchestrators
 
-Though making a GPT call is as simple as making a REST call. SDKs and orchestrators can help to speed up the development process and add features. There are many SDKs and orchestrators including:
+Though making a GPT call is as simple as making a REST call. SDKs and orchestrators can help to speed up the development process. There are many SDKs and orchestrators including for different languages:
 
 -	OpenAI SDK
 -	LangChain
