@@ -117,6 +117,9 @@ The following link provides detailed information about this pattern: https://git
 
 A summarizer pattern can handle large texts that exceed the token limits of GPT models. It does this by dividing the text into smaller pieces, summarizing each piece, and then summarizing the combined summaries for the final output. This pattern can be used for more than summarization, such as analysis, text translation, and so on.
 
+## Retry logic
+
+
 
 ## Building Blocks - C# Polyglot Samples 
 
