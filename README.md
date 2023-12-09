@@ -9,6 +9,7 @@ This guide is intended to provide some AI-infused application development fundam
 
 ![Samples](images/ai-apps-demos.png)
 
+The demos above include:
 - RAG Pattern
 - Travel Guides Generator
 - Financial Advisor
