@@ -1,14 +1,14 @@
-# AI Infused Apps<br/>Building Blocks
+# AI Infused Appplications with Azure OpenAI<br/>Building Blocks
 
 
 ## OpenAI development fundamentals
 
-- Models (ADA, GPT)
-- Tokens
-- Token Limits
-- Prompts/Completions
-- Prompt Engineering
-- LLM vs Chat model
+- What are the models and what models are there (ADA, GPT 3.5, 4)?
+- What are Tokens?
+- What are the token limits and why are they important?
+- What are prompts and completions?
+- What is Prompt engineering?
+- What is the difference between an LLM vs Chat model?
 
 ## Application architecture fundamentals
 
