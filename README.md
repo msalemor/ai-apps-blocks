@@ -25,11 +25,15 @@ Wikipedia defined [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engi
 
 A good playground is a useful starting point for your development. You can experiment with different prompts until you achieve the results you want, and then create templates from your prompts. GPT models are versatile models that can handle various tasks such as summarization, analysis, classification, language translation, and more. You can use a single prompt to do all these tasks, but you can also divide the tasks into smaller units and combine them to create more complex interactions. For more information on prompt engineering, you can read this article: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering.
 
-Once you are satisfied with your prompt, think about how the application will come together. Do you have an ingestion phase, what will you do with the output, etc.
+Once you are satisfied with your prompt, think about how the application will come together. Do you have an ingestion phase, what will you do with the output, etc?
 
-### What is the difference between an LLM vs Chat model?
+### What is the difference between an LLM vs a Chat model?
 
 A GPT model can maintain a record of the previous interactions with the user. These are called messages. The chat model and the LLM model differ in how they use the messages. The chat model incorporates the messages into its output, while the LLM model generates a completion based on the user's prompt without considering the messages (answer/response).
+
+### What are embeddings?
+
+An embedding is a vector (an array) representation of a text. OpenAI offers ADA-002 as the embedding model. In the resource-augemented-generation pattern, for example, text files and broken into chunks, the chunks are sent to ADA for embedding and stored in a vector database. When a user submits a query, the query is itself embedded and then compared against the embedded chunks in the vector database. Using something called cosine similarity, results are ranked by the closest distance to the query.
 
 ### Where is the difficulty? ("The everything else")
 
@@ -42,6 +46,9 @@ Making a call to a prompt is as simple as sending one sentence via a CURL comman
 - Processing the completions
 - Fault handling and resiliency
 - Security and Responsible AI
+- Creating and storing embeddings
+- Selecting a Vector database
+- Retrieving and consuming results from a vector database
 - The frontend
 
 ## Application architecture fundamentals
