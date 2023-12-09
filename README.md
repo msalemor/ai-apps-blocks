@@ -13,7 +13,7 @@ The demos above include:
 - RAG Pattern
 - Travel Guides Generator
 - Financial Advisor
-- Drone Driver
+- Drone Driver Simulator
 
 ### What are the models and what models are there (ADA, GPT 3.5, 4)?
 
