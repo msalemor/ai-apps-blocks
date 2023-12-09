@@ -13,14 +13,16 @@ A token is defined as 3/4 of a word in English. In other languages that have acc
 
 ### What are the token limits and why are they important?
 
-Models like GPT 3.5, 4, and ADA have different token count limitations. It is important to understand these limits to be able to optimize the number of requests an account can handle. Three factors are most important in knowing the token limitations including context size, throttling, and cost. Context size is the maxium amount of tokens a model supports. Some models support 4K, 8K, 16K, 32K, and 128K. Throttling occurs when limitations are exceeded. In Azure, there are two limitations, tokens per minute, and requests per minute. If you exceed any of these limitations, Azure with throttle the respose returning an HttpStatus code 429 or Too Many Requests. As far as cost, different models different cost depending on the model.
-
-[Azure OpenAI Service pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
+Models like GPT 3.5, 4, and ADA have different token count limitations. It is important to understand these limits to be able to optimize the number of requests an account can handle. Three factors are most important in knowing the token limitations including context size, throttling, and cost. Context size is the maximum amount of tokens a model supports. Some models support 4K, 8K, 16K, 32K, and 128K. Throttling occurs when limitations are exceeded. In Azure, there are two limitations, tokens per minute, and requests per minute. If you exceed any of these limitations, Azure with throttle the respose returning an HttpStatus code 429 or Too Many Requests. As far as cost, different models have different costs. The current models and pricing can be found here: [Azure OpenAI Service pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
 
 ### What are prompts and completions?
 
-### What is Prompt engineering?
- 
+When a post request is sent to a GPT model, this is called a prompt. There response coming back from a GPT model is called a completion. To make a prompt request, several parameters need to be passed including, for example, the messages, the temperature, the maximum response prompts, etc. The completion is also more than just an answer, it can include things like information about the model, the tokens, and the actual response message. Here's the current API reference that lists all the available parameters for making these POST REST calls: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference. The response can be received all at once or stream. A response can receive an error message, this happens most often when a response is longer than the desired token count set in the max_tokens payload.
+
+### What is prompt engineering?
+
+Wikipedia defined [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) as "Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model.[1][2] A prompt is natural language text describing the task that an AI should perform."
+
 ### What is the difference between an LLM vs Chat model?
 
 ## Application architecture fundamentals
