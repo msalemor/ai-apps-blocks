@@ -1,17 +1,15 @@
 # AI-Infused Appplications with Azure OpenAI - <br/>Application Development Building Blocks
 
-
-## OpenAI fundamentals
-
 ### What can I build with this thing?
-
 
 ![Samples](images/ai-apps-demos.png)
 
 - RAG Pattern
 - Travel guides generator
 - Financial advisor
-- - Drone driver
+- Drone driver
+
+## OpenAI fundamentals
 
 ### What are the models and what models are there (ADA, GPT 3.5, 4)?
 
