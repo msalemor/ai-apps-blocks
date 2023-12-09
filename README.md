@@ -29,13 +29,13 @@ Different models of natural language generation, such as GPT 3.5, 4, and ADA, ha
 
 ### What are prompts and completions?
 
-When a post request is sent to a GPT model, this is called a prompt. There response coming back from a GPT model is called a completion. To make a prompt request, several parameters need to be passed including, for example, the messages, the temperature, the maximum response prompts, etc. The completion is also more than just an answer, it can include things like information about the model, the tokens counts, and the actual response message. Here's the current API reference that lists all the available parameters for making these POST REST calls: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference. 
+When a post request is sent to a GPT model, this is called a prompt. There response coming back from a GPT model is called a completion. To make a prompt request, several parameters need to be passed including, for example, the messages, the temperature, the maximum response prompts, etc. The completion is also more than just an answer, it can include things like information about the model, the token counts, and the actual response message. Here's the current API reference that lists all the available parameters for making these POST REST calls: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference. 
 
 The response can be received all at once or streamed. A response can receive an error message, this happens most often when a response is longer than the requested token count set in the max_tokens payload.
 
 ### What is prompt engineering?
 
-Wikipedia defined [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) as "Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model. A prompt is natural language text describing the task that an AI should perform."
+Wikipedia defines [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) as "the process of structuring text that can be interpreted and understood by a generative AI model. A prompt is natural language text describing the task that an AI should perform."
 
 A good playground is a useful starting point for your development. You can experiment with different prompts until you achieve the results you want, and then create templates from your prompts. GPT models are versatile models that can handle various tasks such as summarization, analysis, classification, language translation, and more. You can use a single prompt to do all these tasks, but you can also divide the tasks into smaller units and combine them to create more complex interactions. For more information on prompt engineering, you can read this article: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering.
 
@@ -148,6 +148,6 @@ A summarizer pattern can handle large texts that exceed the token limits of the 
 - [SK-Planners](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-planner.ipynb)
   - Building blocks: Semantic Kernel, SK functions, and SK planners.
 - [SK-RAG Pattern](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-rag-pattern.ipynb)
-  - Building blocks: SK simple RAG pattern
+  - Building blocks: Semantic Kernel, embeddings, vector database, and RAG pattern.
 - [SK-Summarizer](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-summarizer-pattern.ipynb)
   - Building blocks: SK simple Summarization pattern
