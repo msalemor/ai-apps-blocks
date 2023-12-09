@@ -151,4 +151,4 @@ A summarizer pattern can handle large texts that exceed the token limits of the 
 - [SK-RAG Pattern](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-rag-pattern.ipynb)
   - Building blocks: Semantic Kernel, embeddings, vector database, and RAG pattern.
 - [SK-Summarizer](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-summarizer-pattern.ipynb)
-  - Building blocks: SK simple Summarization pattern
+  - Building blocks: Semantic Kernel, embeddings, vector database, and summarization pattern.
