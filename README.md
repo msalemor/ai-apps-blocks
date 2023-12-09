@@ -37,7 +37,16 @@ An embedding is a vector (an array) representation of a text. OpenAI offers ADA-
 
 ### Where is the difficulty? ("The everything else")
 
-Making a call to a prompt is as simple as sending one sentence via a CURL command to GPT. Even just this one simple action can yield amazing results. So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
+Making a call to GPT endpoint is as simple as sending one sentence via a CURL command like this: 
+
+```bash
+curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT_NAME/chat/completions?api-version=2023-05-15 \
+  -H "Content-Type: application/json" \
+  -H "api-key: YOUR_API_KEY" \
+  -d '{"messages":[{"role": "user", "content": "What is the speed of light?"}]}'
+```
+
+Even just this one simple action can yield amazing results. So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
 
 - Selecting the right model
 - Ingestion
