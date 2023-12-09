@@ -35,9 +35,15 @@ A GPT model can maintain a record of the previous interactions with the user. Th
 
 Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling (Jupyter notebooks) of some of the LLM use cases: https://github.com/msalemor/llm-use-cases.
 
-### What are embeddings?
+### What are embeddings and vector databases?
 
-An embedding is a vector (an array) representation of a text. OpenAI offers ADA-002 as the embedding model. In the resource-augemented-generation pattern, for example, text files and broken into chunks, the chunks are sent to ADA for embedding and stored in a vector database. When a user submits a query, the query is itself embedded and then compared against the embedded chunks in the vector database. Using something called cosine similarity, results are ranked by the closest distance to the query.
+An embedding is a vector (an array) representation of a text. OpenAI offers ADA-002 as the embedding model. A vector database is a database that stores and indexes vector embeddings, which are numerical representations of data, to enable fast and efficient retrieval and comparison of similar items.
+
+In the Retrieval Augmented Generation (RAG), for example, text files and broken into chunks, the chunks are sent to ADA for embedding and stored in a vector database. When a user submits a query, the query is itself embedded and then compared against the embedded chunks in the vector database. Using something called cosine similarity, results are ranked by the closest distance to the query.
+
+Reference:
+- [Cosine Similarity](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/understand-embeddings)
+- [Video: OpenAI Embeddings and Vector Databases Crash Course](https://www.youtube.com/watch?v=ySus5ZS0b94&t=21s)
 
 ### Where is the difficulty? ("The everything else")
 
