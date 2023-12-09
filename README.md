@@ -63,17 +63,17 @@ Even just this one simple action can yield amazing results. So if it is so simpl
 
 Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are REST endpoint, particularly feeling comfortable with the following concepts is important.
 
--	Making REST requests (POST)
+-	Making REST requests (POST) (notebook)
 -	Configuring HttpClient
 -	Configuring retry logic
 
-## SDKs and Orchestrators
+## SDKs and Orchestrators (notebook)
 
 -	OpenAI SDK
 -	LangChain
-- 	Semantic Kernel
+- Semantic Kernel
 
-## RAG Pattern
+## RAG Pattern (notebook)
 
 - Ingestion
 - Text chunking
