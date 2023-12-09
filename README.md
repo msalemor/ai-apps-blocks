@@ -103,9 +103,9 @@ A summarizer pattern can handle large texts that exceed the token limits of GPT 
 - [REST-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/cars-content-generation.ipynb)
   - Building blocks: models, REST, LLM, prompt, completion
 - [REST-Chat](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/chatbot.ipynb)
-  - Building blocks: mopdels, REST, Chat model, prompt, completion
+  - Building blocks: models, REST, Chat model, prompt, completion
 - [SK-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-cars-content-generation.ipynb)
-  - 
+  - Building blocks: models, Semantic Kernel, LLMs, prompt, completion
 - [SK-Chatbot](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-chatbot.ipynb)
 - [SK-Planners](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-planner.ipynb)
 - [SK-RAG Pattern](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-rag-pattern.ipynb)
