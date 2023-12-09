@@ -21,7 +21,7 @@ When a post request is sent to a GPT model, this is called a prompt. There respo
 
 ### What is prompt engineering?
 
-Wikipedia defined [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) as "Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model.[1][2] A prompt is natural language text describing the task that an AI should perform."
+Wikipedia defined [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) as "Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model. A prompt is natural language text describing the task that an AI should perform."
 
 A good playground is a useful starting point for your development. You can experiment with different prompts until you achieve the results you want, and then create templates from your prompts. GPT models are versatile models that can handle various tasks such as summarization, analysis, classification, language translation, and more. You can use a single prompt to do all these tasks, but you can also divide the tasks into smaller units and combine them to create more complex interactions. For more information on prompt engineering, you can read this article: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering.
 
