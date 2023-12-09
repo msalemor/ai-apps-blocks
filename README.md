@@ -9,9 +9,9 @@
 ![Samples](images/ai-apps-demos.png)
 
 - RAG Pattern
-- Financial advisor
 - Travel guides generator
-- Drone driver
+- Financial advisor
+- - Drone driver
 
 ### What are the models and what models are there (ADA, GPT 3.5, 4)?
 
