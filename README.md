@@ -92,10 +92,10 @@ curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYM
 
 Even just this one simple action can yield amazing results. 
 
-So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
+So if it is so simple to consume a GPT endpoint, where is the difficulty? The answer: it is the "everything else" such as:
 
 - Selecting the right model
-- Ingestion
+- Handling ingestions
 - Prompt engineering
 - Processing the completions
 - Fault handling and resiliency
@@ -103,11 +103,11 @@ So if it is so simple to consume a GPT endpoint, where is the difficulty? It is 
 - Creating and storing embeddings
 - Selecting a Vector database, 
 - Retrieving and consuming results from a vector database
-- The user experience (frontend)
+- Delivering a right user experience (frontend)
 
 ## Application architecture fundamentals
 
-Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are REST endpoints, particularly feeling comfortable with the following concepts is important:
+Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc. Since OpenAI are RESTful endpoints, particularly feeling comfortable with the following concepts is important:
 
 -	Making REST requests (POST)
 -	Configuring HttpClient
