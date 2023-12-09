@@ -153,3 +153,12 @@ A summarizer pattern can handle large texts that exceed the token limits of the 
   - Building blocks: Semantic Kernel, embeddings, vector database, and RAG pattern.
 - [SK-Summarizer](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-summarizer-pattern.ipynb)
   - Building blocks: Semantic Kernel, embeddings, vector database, and summarization pattern.
+
+## Promptflow
+
+Microsoft describes Promflow as, "a suite of development tools designed to streamline the end-to-end development cycle of LLM-based AI applications, from ideation, prototyping, testing, evaluation to production deployment and monitoring. It makes prompt engineering much easier and enables you to build LLM apps with production quality.". The way Promptflow leverages Jinja2 templates, Python blocks, and how flows are built, are excellent examples of how to compose complex interactions.
+
+- [Promptflow-Chatbot](https://github.com/microsoft/promptflow/tree/main/examples/flows/chat/basic-chat)
+  - Building blocks: Connections, flows, chat model, LLM prompts, Jinja2 templates
+- [Chat with wikipedia](https://github.com/microsoft/promptflow/tree/main/examples/flows/chat/chat-with-wikipedia)
+- 
