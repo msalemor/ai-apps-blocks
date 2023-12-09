@@ -39,17 +39,16 @@ An embedding is a vector (an array) representation of a text. OpenAI offers ADA-
 
 Making a call to a prompt is as simple as sending one sentence via a CURL command to GPT. Even just this one simple action can yield amazing results. So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
 
+- Selecting the right model
 - Ingestion
 - Prompt engineering
-- selecting the right model
-- Managing
 - Processing the completions
 - Fault handling and resiliency
 - Security and Responsible AI
 - Creating and storing embeddings
-- Selecting a Vector database
+- Selecting a Vector database, 
 - Retrieving and consuming results from a vector database
-- The frontend
+- The user experience (frontend)
 
 ## Application architecture fundamentals
 
