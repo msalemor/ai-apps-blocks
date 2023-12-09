@@ -29,7 +29,7 @@ Once you are satisfied with your prompt, think about how the application will co
 
 ### What is the difference between an LLM vs Chat model?
 
-A GPT model can keep a conversation history with the user. These are called messages.
+A GPT model can maintain a record of the previous interactions with the user. These are called messages. The chat model and the LLM model differ in how they use the messages. The chat model incorporates the messages into its output, while the LLM model generates a completion based on the user's prompt without considering the messages (answer/response).
 
 ### Where is the difficulty? ("The everything else")
 
