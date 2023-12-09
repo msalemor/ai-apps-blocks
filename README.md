@@ -33,7 +33,27 @@ A GPT model can maintain a record of the previous interactions with the user. Th
 
 #### What are some LLM use cases?
 
-Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling (Jupyter notebooks) of some of the LLM use cases: https://github.com/msalemor/llm-use-cases.
+Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling (Jupyter notebooks) of some of the LLM use cases: 
+
+- [Summarization & Risk Analysis](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/analysis.ipynb)
+  - Get a contract, summarize it, and identify the risks.
+- [Recommendation system]([RECOMMENDATION.md](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/analysis.ipynb))
+  - Recommend from an up-to-date list of restaurants
+- [Language Translation](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/translation.ipynb)
+  - Translate technical text from a target to a source language
+- [Content generation and Personalization](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/generation.ipynb)
+  - Generate a sales car description
+- [Intent and entities - A LUIS-like scenario](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/intent.ipynb)
+  - Find the user's intent and entities
+- [Sentiment Analysis - Zero Shot](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/sentiment.ipynb)
+  - Sentiment Analysis  
+- [Scoring - Zero Shot](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/scoring.ipynb)
+  - Scoring
+- [Classification](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/classification.ipynb)
+  - Classification
+- [RAG Pattern without a vector database](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/ragnodb.ipynb)
+  - Provide the container and answer the question based only on the provided content.
+
 
 ### What are embeddings and vector databases?
 
@@ -101,12 +121,16 @@ A summarizer pattern can handle large texts that exceed the token limits of GPT 
 ## Building Blocks - C# Polyglot Samples 
 
 - [REST-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/cars-content-generation.ipynb)
-  - Building blocks: models, REST, LLM, prompt, completion
+  - Building blocks: models, REST, LLM, prompt, and completion.
 - [REST-Chat](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/chatbot.ipynb)
-  - Building blocks: models, REST, Chat model, prompt, completion
+  - Building blocks: models, REST, Chat model, prompt, and completion.
 - [SK-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-cars-content-generation.ipynb)
-  - Building blocks: models, Semantic Kernel, LLMs, prompt, completion
+  - Building blocks: Semantic Kernel, SK functions, SK LLM chaining, LLMs, SK function execution, and SK result.
 - [SK-Chatbot](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-chatbot.ipynb)
+  - Building blocks: Semantic Kernel, SK functions, chat history, Chat state, and SK result.
 - [SK-Planners](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-planner.ipynb)
+  - Building blocks: Semantic Kernel, SK functions, and SK planners.
 - [SK-RAG Pattern](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-rag-pattern.ipynb)
+  - Building blocks: SK simple RAG pattern
 - [SK-Summarizer](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-summarizer-pattern.ipynb)
+  - Building blocks: SK simple Summarization pattern
