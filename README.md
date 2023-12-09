@@ -31,6 +31,10 @@ Once you are satisfied with your prompt, think about how the application will co
 
 A GPT model can maintain a record of the previous interactions with the user. These are called messages. The chat model and the LLM model differ in how they use the messages. The chat model incorporates the messages into its output, while the LLM model generates a completion based on the user's prompt without considering the messages (answer/response).
 
+#### What are some use cases?
+
+- [Use cases]()
+
 ### What are embeddings?
 
 An embedding is a vector (an array) representation of a text. OpenAI offers ADA-002 as the embedding model. In the resource-augemented-generation pattern, for example, text files and broken into chunks, the chunks are sent to ADA for embedding and stored in a vector database. When a user submits a query, the query is itself embedded and then compared against the embedded chunks in the vector database. Using something called cosine similarity, results are ranked by the closest distance to the query.
