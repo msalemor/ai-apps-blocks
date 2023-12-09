@@ -17,7 +17,9 @@ Different models of natural language generation, such as GPT 3.5, 4, and ADA, ha
 
 ### What are prompts and completions?
 
-When a post request is sent to a GPT model, this is called a prompt. There response coming back from a GPT model is called a completion. To make a prompt request, several parameters need to be passed including, for example, the messages, the temperature, the maximum response prompts, etc. The completion is also more than just an answer, it can include things like information about the model, the tokens, and the actual response message. Here's the current API reference that lists all the available parameters for making these POST REST calls: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference. The response can be received all at once or stream. A response can receive an error message, this happens most often when a response is longer than the desired token count set in the max_tokens payload.
+When a post request is sent to a GPT model, this is called a prompt. There response coming back from a GPT model is called a completion. To make a prompt request, several parameters need to be passed including, for example, the messages, the temperature, the maximum response prompts, etc. The completion is also more than just an answer, it can include things like information about the model, the tokens counts, and the actual response message. Here's the current API reference that lists all the available parameters for making these POST REST calls: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference. 
+
+The response can be received all at once or streamed. A response can receive an error message, this happens most often when a response is longer than the requested token count set in the max_tokens payload.
 
 ### What is prompt engineering?
 
@@ -119,7 +121,7 @@ The following link provides detailed information about this pattern: https://git
 
 ## Summarizer Pattern
 
-A summarizer pattern can handle large texts that exceed the token limits of GPT models. It does this by dividing the text into smaller pieces, summarizing each piece, and then summarizing the combined summaries for the final output. This pattern can be used for more than summarization, such as analysis, text translation, and so on.
+A summarizer pattern can handle large texts that exceed the token limits of the GPT models. It does this by dividing the text into smaller pieces, summarizing each piece, and then summarizing the combined summaries for the final output. This pattern can be used for more than summarization, such as analysis, text translation, and so on.
 
 ## Building Blocks - C# Polyglot Samples 
 
