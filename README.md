@@ -7,11 +7,11 @@ This guide is intended to provide some AI-infused application development fundam
 
 ### What can be built?
 
-![Samples](images/ai-apps-demos.png)
+![An images of GPT demo: RAG Pattern, Travel Guides Generator, Financial Advisor, Drone Driver Simulator](images/ai-apps-demos.png)
 
 The demos above include:
 - RAG Pattern
-- Travel Guides Generator
+- Travel Guides - Content Generation
 - Financial Advisor
 - Drone Driver Simulator
 
