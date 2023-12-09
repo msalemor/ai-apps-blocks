@@ -3,6 +3,12 @@
 
 ## OpenAI fundamentals
 
+### What can I build with this thing?
+
+
+![Samples](images/ai-apps-demos.png)
+
+
 ### What are the models and what models are there (ADA, GPT 3.5, 4)?
 
 Azure OpenAI provides various models for different tasks, such as GPT for text generation and ADA for embeddings. These models are accessible through REST endpoints hosted on Azure, which can be invoked by sending a POST request to the corresponding URL. The models may differ in their token sizes, tokens per minute, and performance. To access these endpoints, you will need to obtain an API key or configure another security mechanism on Azure.
