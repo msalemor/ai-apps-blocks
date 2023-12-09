@@ -1,4 +1,4 @@
-# AI-Infused Appplications with Azure OpenAI<br/>Application Development Building Blocks
+# AI-Infused Appplications with Azure OpenAI - <br/>Application Development Building Blocks
 
 
 ## OpenAI fundamentals
@@ -81,6 +81,8 @@ Writing an AI-infused application is no different than planning a regular applic
 
 ## SDKs and Orchestrators
 
+Though making a GPT call is as simple as making a REST call. SDKs and orchestrators can help to speed up the development process and add features. There are many SDKs and orchestrators including:
+
 -	OpenAI SDK
 -	LangChain
 - Semantic Kernel
@@ -99,8 +101,11 @@ A summarizer pattern can handle large texts that exceed the token limits of GPT 
 ## Building Blocks - C# Polyglot Samples 
 
 - [REST-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/cars-content-generation.ipynb)
+  - Building blocks: models, REST, LLM, prompt, completion
 - [REST-Chat](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/chatbot.ipynb)
+  - Building blocks: mopdels, REST, Chat model, prompt, completion
 - [SK-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-cars-content-generation.ipynb)
+  - 
 - [SK-Chatbot](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-chatbot.ipynb)
 - [SK-Planners](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-planner.ipynb)
 - [SK-RAG Pattern](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-rag-pattern.ipynb)
