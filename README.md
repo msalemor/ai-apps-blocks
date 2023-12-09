@@ -1,4 +1,4 @@
-# AI Infused Appplications with Azure OpenAI<br/>Building Blocks
+# AI-Infused Appplications with Azure OpenAI<br/>Application Development Building Blocks
 
 
 ## OpenAI development fundamentals
