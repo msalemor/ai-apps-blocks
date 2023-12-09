@@ -12,6 +12,8 @@
 
 ## Application architecture fundamentals
 
+Writing an AI-infused application is no different than planning a regular application. You need to consider the usual layers like validation, scalability, resiliency, data access, security, etc.
+
 -	HttpClient, REST, Streaming, and APIs
 -	Retry Logic
 -	Etc.
