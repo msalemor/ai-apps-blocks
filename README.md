@@ -37,7 +37,7 @@ Again, GPT models are foundational models. As foundational models, they can solv
 
 - [Summarization & Risk Analysis](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/analysis.ipynb)
   - Get a contract, summarize it, and identify the risks.
-- [Recommendation system]([RECOMMENDATION.md](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/analysis.ipynb))
+- [Recommendation system](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/analysis.ipynb)
   - Recommend from an up-to-date list of restaurants
 - [Language Translation](https://github.com/msalemor/llm-use-cases/blob/main/notebooks/translation.ipynb)
   - Translate technical text from a target to a source language
