@@ -83,12 +83,13 @@ Writing an AI-infused application is no different than planning a regular applic
 
 ### Building C# Polyglot Samples 
 
-- [REST]()
-- [Resiency]()
-- [SK-LLM]()
-- [SK-Chatbot]()
-- [SK-Orchestrator]()
-- [SK-Embeddings]()
+- [REST-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/cars-content-generation.ipynb)
+- [REST-Chat](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/chatbot.ipynb)
+- [Resiency-WIP]()
+- [SK-LLM](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-cars-content-generation.ipynb)
+- [SK-Chatbot](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-chatbot.ipynb)
+- [SK-Planners](https://github.com/msalemor/sk-dev-training/blob/main/notebooks/sk-planner.ipynb)
+- [SK-Embeddings-WIP]()
 
 ## RAG Pattern (notebook)
 
