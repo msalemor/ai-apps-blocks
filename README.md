@@ -21,7 +21,7 @@ Azure OpenAI provides various models for different tasks, such as GPT for text g
 
 ### What are tokens?
 
-A token is defined as 3/4 of a word in English. In other languages that have accents and other characters, those characters count as tokens. If you want to see the effect of tokes, OpenAI offers a tokenizer tool at: https://platform.openai.com/tokenizer.
+A token is defined as 3/4 of a word in English. In other languages that have accents and other characters, those characters count as tokens. If you want to see how tokens are counted, OpenAI offers a tokenizer tool at: https://platform.openai.com/tokenizer.
 
 ### What are the token limits and why are they important?
 
