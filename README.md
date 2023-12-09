@@ -37,7 +37,7 @@ Again, GPT models are foundational models. As foundational models, they can solv
 
 ### What are embeddings and vector databases?
 
-An embedding is a vector (an array) representation of a text. OpenAI offers ADA-002 as the embedding model. A vector database is a database that stores and indexes vector embeddings, which are numerical representations of data, to enable fast and efficient retrieval and comparison of similar items.
+A text can be represented by a vector, which is an array of numbers. ADA-002 is the name of the embedding model offered by OpenAI. A vector database is a type of database that stores and indexes these vectors so that it can quickly and efficiently find and compare similar items. Some databases do not have native support for vector search, so they need to use code to implement the cosine similarity function, which measures how close two vectors are. For instance, Semantic Kernel be configured to use SQLite and AI Search as databases. SQLite does not have vector search built-in, so it relies on the SK code to perform the cosine similarity ranking. AI Search has many search modes, and some of them include embeddings and search features by default.
 
 In the Retrieval Augmented Generation (RAG), for example, text files and broken into chunks, the chunks are sent to ADA for embedding and stored in a vector database. When a user submits a query, the query is itself embedded and then compared against the embedded chunks in the vector database. Using something called cosine similarity, results are ranked by the closest distance to the query.
 
