@@ -77,6 +77,15 @@ Writing an AI-infused application is no different than planning a regular applic
 -	LangChain
 - Semantic Kernel
 
+### Building c# interactive block samples
+
+- [REST]()
+- [Resiency]()
+- [SK-LLM]()
+- [SK-Chatbot]()
+- [SK-Orchestrator]()
+- [SK-Embeddings]()
+
 ## RAG Pattern (notebook)
 
 - Ingestion
