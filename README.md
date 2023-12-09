@@ -160,5 +160,5 @@ Microsoft describes Promflow as, "a suite of development tools designed to strea
 
 - [Promptflow-Chatbot](https://github.com/microsoft/promptflow/tree/main/examples/flows/chat/basic-chat)
   - Building blocks: Connections, flows, chat model, LLM prompts, Jinja2 templates
-- [Chat with wikipedia](https://github.com/microsoft/promptflow/tree/main/examples/flows/chat/chat-with-wikipedia)
-- 
+- [Chat with Wikipedia](https://github.com/microsoft/promptflow/tree/main/examples/flows/chat/chat-with-wikipedia)
+  - Building blocks: Connections, flows, chat model, LLM prompts, Python blocks, Jinja2 templates
