@@ -5,7 +5,7 @@
 
 ### What are the models and what models are there (ADA, GPT 3.5, 4)?
 
-Azure OpenAI offers several models including GPT for text generation and ADA for embedings. These are REST endpoints hosted in Azure that are generally executed by making a POST request to the endpoint. Models may offer different token sizes, tokens per minute, and performance. To call these endpoints, you will need to either get an API key or setup some other security mechanism in Azure.
+Azure OpenAI provides various models for different tasks, such as GPT for text generation and ADA for embeddings. These models are accessible through REST endpoints hosted on Azure, which can be invoked by sending a POST request to the corresponding URL. The models may differ in their token sizes, tokens per minute, and performance. To access these endpoints, you will need to obtain an API key or configure another security mechanism on Azure.
 
 ### What are tokens?
 
@@ -29,14 +29,19 @@ Once you are satisfied with your prompt, think about how the application will co
 
 ### What is the difference between an LLM vs Chat model?
 
+A GPT model can keep a conversation history with the user. These are called messages.
+
 ### Where is the difficulty? ("The everything else")
 
 Making a call to a prompt is as simple as sending one sentence via a CURL command to GPT. Even just this one simple action can yield amazing results. So if it is so simple to consume a GPT endpoint, where is the difficulty? It is the "everything else".
 
-- Ingestion (data source, data format, extracting text)
+- Ingestion
 - Prompt engineering
+- selecting the right model
+- Managing
 - Processing the completions
 - Fault handling and resiliency
+- Security and Responsible AI
 - The frontend
 
 ## Application architecture fundamentals
