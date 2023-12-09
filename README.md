@@ -1,7 +1,7 @@
 # AI-Infused Appplications with Azure OpenAI<br/>Application Development Building Blocks
 
 
-## OpenAI development fundamentals
+## OpenAI fundamentals
 
 ### What are the models and what models are there (ADA, GPT 3.5, 4)?
 
