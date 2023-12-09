@@ -117,7 +117,7 @@ Writing an AI-infused application is no different than planning a regular applic
 
 ## SDKs and Orchestrators
 
-Though making a GPT call is as simple as making a REST call. SDKs and orchestrators can help to speed up the development process. There are many SDKs and orchestrators including for different languages:
+Though making a GPT call is as simple as making a REST call. SDKs and orchestrators can help to speed up the development process. There are many SDKs and orchestrators for different languages including:
 
 -	OpenAI SDK
 -	LangChain
