@@ -31,7 +31,7 @@ Once you are satisfied with your prompt, think about how the application will co
 
 A GPT model can maintain a record of the previous interactions with the user. These are called messages. The chat model and the LLM model differ in how they use the messages. The chat model incorporates the messages into its output, while the LLM model generates a completion based on the user's prompt without considering the messages (answer/response).
 
-#### What are some use cases?
+#### What are some LLM use cases?
 
 Again, GPT models are foundational models. As foundational models, they can solve many problems. Here's a sampling of some of these use cases:
 
