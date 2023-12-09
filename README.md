@@ -25,6 +25,8 @@ Wikipedia defined [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engi
 
 A good playground is a useful starting point for your development. You can experiment with different prompts until you achieve the results you want, and then create templates from your prompts. GPT models are versatile models that can handle various tasks such as summarization, analysis, classification, language translation, and more. You can use a single prompt to do all these tasks, but you can also divide the tasks into smaller units and combine them to create more complex interactions. For more information on prompt engineering, you can read this article: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering.
 
+Once you are satisfied with your prompt, think about how the application will come together. Do 
+
 ### What is the difference between an LLM vs Chat model?
 
 ## Application architecture fundamentals
