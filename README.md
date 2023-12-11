@@ -39,7 +39,7 @@ Wikipedia defines [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engi
 
 A good playground is a useful tool and a good starting point for your development. You can experiment with different prompts until you achieve the results you want, and then generally templatize the prompt or different variants of a prompt. GPT models are versatile models that can handle various tasks such as summarization, analysis, classification, language translation, and more. You can use a single prompt to do all these tasks, but you can also divide the tasks into smaller units and combine them to create more complex interactions. For more information on prompt engineering, you can read this article: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering.
 
-Once you are satisfied with your prompt, think about how the application will come together. Do you have an ingestion phase, what will you do with the output, etc?
+Guidance for creating prompts can vary greatly, but a prompt can include the expected outcome, instructions, samples, the desired output format (JSON, etc.), and additional context. Once you are satisfied with your prompt, think about how the application will come together. Do you have an ingestion phase, what will you do with the output, etc?
 
 ### What is the difference between an LLM vs a Chat model?
 
@@ -78,6 +78,8 @@ In the Retrieval Augmented Generation (RAG), for example, text files and broken 
 Reference:
 - [Cosine Similarity](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/understand-embeddings)
 - [Video: OpenAI Embeddings and Vector Databases Crash Course](https://www.youtube.com/watch?v=ySus5ZS0b94&t=21s)
+- [Azure AI Search - Semantic Search](https://learn.microsoft.com/en-us/azure/search/semantic-search-overview)
+- [Azure Cosmos DB - MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/vector-database)
 
 ### Where is the difficulty? ("The everything else")
 
