@@ -75,7 +75,7 @@ A text can be represented by a vector, which is an array of numbers. ADA-002 is 
 
 In the Retrieval Augmented Generation (RAG), for example, text files and broken into chunks, the chunks are sent to ADA for embedding and stored in a vector database. When a user submits a query, the query is itself embedded and then compared against the embedded chunks in the vector database. Using something called cosine similarity, results are ranked by the closest distance to the query.
 
-Reference:
+References:
 - [Cosine Similarity](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/understand-embeddings)
 - [Video: OpenAI Embeddings and Vector Databases Crash Course](https://www.youtube.com/watch?v=ySus5ZS0b94&t=21s)
 - [Azure AI Search - Semantic Search](https://learn.microsoft.com/en-us/azure/search/semantic-search-overview)
