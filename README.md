@@ -3,7 +3,18 @@
 
 ## OpenAI fundamentals
 
-This guide is intended to provide some AI-infused application development fundamentals.
+Adding OpenAI GPT to applications can bring numerous benefits and unlock a wide range of possibilities. One of the key advantages is the ability to enhance the natural language processing capabilities of applications. OpenAI GPT is a powerful language model that can understand and generate human-like text, making it ideal for applications that require advanced language understanding and generation. By integrating GPT into applications, developers can create chatbots and virtual assistants that can engage in more meaningful and context-aware conversations with users. This can greatly improve user experience and provide more accurate and helpful responses. Some of the common use cases include:
+
+- Summarization
+- Translation
+- Sentiment Analysis
+- Text generation
+- Classification
+- Scoring
+- Etc.
+
+OpenAI GPT can transform how we interact with technology by integrating it into applications. Developers can use OpenAI GPT to build innovative and intelligent applications that meet users' needs better. This guide covers the building blocks for AI-infused applications using Azure OpenAI.
+
 
 ### What can be built?
 
