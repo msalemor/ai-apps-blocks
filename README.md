@@ -1,7 +1,7 @@
 # AI-Infused Appplications with Azure OpenAI - <br/>Application Development Building Blocks
 
 
-## OpenAI fundamentals
+## Objective
 
 Adding OpenAI GPT to applications can bring numerous benefits and unlock a wide range of possibilities. One of the key advantages is the ability to enhance the natural language processing capabilities of applications. OpenAI GPT is a powerful language model that can understand and generate human-like text, making it ideal for applications that require advanced language understanding and generation. By integrating GPT into applications, developers can create chatbots and virtual assistants that can engage in more meaningful and context-aware conversations with users. This can greatly improve user experience and provide more accurate and helpful responses. Some of the common use cases include:
 
