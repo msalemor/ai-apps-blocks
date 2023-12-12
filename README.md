@@ -83,7 +83,7 @@ References:
 
 ### Setting context vs fine-tuning
 
-You can enhance the prompt by adding more data that gives it context. For example, if you want to summarize a document, you can include the document text in the prompt and ask GPT to summarize it. This is how some resource-augmented techniques work: they add extra data to the prompt and use prompt engineering to write the instructions for the desired outcome. Sometimes, this may be enough to meet the requirements. Other times, you may need to combine context setting and fine-tuning.
+You can enhance the prompt by adding more data to give it context. For example, if you want to summarize a document, you could include the document text in the prompt and ask GPT to summarize it. This is how some resource-augmented techniques work: they add extra data to the prompt (set context) and use prompt engineering to write the instructions for the desired outcome. In most cases, this may be enough to meet the requirements. Other times, you may need to combine context setting and fine-tuning.
 
 Some OpenAI models, like GPT 3.5, can be tuned. Fine-tuning could be described as the process of customizing a model by affecting the model weights to possibly teach it new skills. When is it appropriate to fine-tune:
 
